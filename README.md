@@ -9,7 +9,7 @@ CVC-ColonDB-ImageMask-Dataset.zip</a>, which was derived by us from
 <br>
 <br>
 <b>Data Augmentation Strategy:</b><br>
- To address the limited size of the original CVC-ColonDB, which contains 380 images and their corresponding masks,, 
+ To address the limited size of the original CVC-ColonDB, which contains 380 images and their corresponding masks,
  we employed <a href="./generator/ImageMaskDatasetGenerator.py">an offline augmentation tool</a> to generate a pre-augmented dataset, which supports the following augmentation methods.
 <li>Vertical flip</li>
 <li>Horizontal flip</li>
