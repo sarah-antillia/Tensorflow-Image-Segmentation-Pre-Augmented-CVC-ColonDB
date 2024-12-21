@@ -393,7 +393,8 @@ if __name__ == "__main__":
     masks_dir   = "./CVC-ColonDB/masks"
     output_dir  = "./CVC-ColonDB-master"
     angle       = cv2.ROTATE_90_COUNTERCLOCKWISE
-    augmentation= False
+    #augmentation= False
+    augmentation= True
     generator = ImageMaskDatasetGenerator(images_dir  = images_dir, 
                                           masks_dir   = masks_dir,
                                           output_dir = output_dir, 
